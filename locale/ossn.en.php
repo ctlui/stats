@@ -7,9 +7,9 @@
  * @link      https://github.com/ctlui/stats
  */
 $en = array(
-	'stats'	=> 'Piwik',
-	'piwik_title' => "Piwik Data",
+	'stats'	=> 'Matomo',
+	'piwik_title' => "Matomo Data",
 	'domain_name' => 'Domain name',
-	'site_id' => 'Piwik Id site number',
+	'site_id' => 'Matomo Id site number',
 );
 ossn_register_languages('en', $en);
