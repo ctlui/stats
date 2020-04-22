@@ -1,4 +1,4 @@
-# stats
+# Stats
 Add Matomo to OSSN
 
 Component to get piwik stats from your OSSN (https://github.com/opensource-socialnetwork/opensource-socialnetwork) site.
