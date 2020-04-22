@@ -2,7 +2,7 @@
 /**
  *    OpenSource-SocialNetwork
  *
- * @author    ctlui
+ * @author    ctlui, laventin85
  * @license   General Public Licence http://opensource-socialnetwork.com/licence
  * @link      https://github.com/ctlui/stats
  */
