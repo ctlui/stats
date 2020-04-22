@@ -8,7 +8,7 @@
  */
 $de = array(
 	'stats'	=> 'Matomo',
-	'piwik_title' => "Matomo Data",
+	'piwik_title' => "Matomo-Daten",
 	'domain_name' => 'Domeinnaam',
 	'site_id' => 'Id Matomo uw site',
 );
