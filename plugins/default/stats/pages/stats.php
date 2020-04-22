@@ -12,19 +12,21 @@ $domain = $settings->domain;
 $id = $settings->id;
 
 ?>
-
-<!-- Piwik -->
+<!-- Matomo -->
 <script type="text/javascript">
-  var _paq = _paq || [];
+  var _paq = window._paq || [];
+  /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
   _paq.push(['trackPageView']);
   _paq.push(['enableLinkTracking']);
   (function() {
-    var u="//<?php echo $domain?>/";
-    _paq.push(['setTrackerUrl', u+'piwik.php']);
-    _paq.push(['setSiteId', <?php echo $id?>]);
+    var u="<?php echo $domain?>";
+    _paq.push(['setTrackerUrl', u+'matomo.php']);
+    _paq.push(['setSiteId', '<?php echo $id?>']);
     var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<noscript><p><img src="//<?php echo $domain?>/piwik.php?idsite=<?php echo $id?>" style="border:0;" alt="" /></p></noscript>
-<!-- End Piwik Code -->
+<!-- Matomo Image Tracker -->
+<img src="<?php echo $domain?>/matomo.php?idsite=<?php echo $id?>&amp;rec=1" style="border:0" alt="" />
+<!-- End Matomo Image Tracker -->
+<!-- End Matomo Code -->
