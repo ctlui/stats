@@ -9,3 +9,7 @@ Upload compoents and enble it.
 You can configure from the admin panel of OSSN, at letf topbar select configure and Matomo.
 Just put your domain name (OSSN) ex: toto.com
 and your site Id that you have in Matomo for your OSSN site.
+
+Configuration example
+
+![Test Image 1](Screenshot.png)
